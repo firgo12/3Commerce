@@ -85,6 +85,7 @@ document.querySelector('#register-btn').addEventListener('click', () => {
             Swal.fire({
                 icon: 'success',
                 title: 'conta criada, vá para a aba de login para logar-se',
+                customClass: 'popSucesso',
                 confirmButtonColor: "#DD6B55",
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
